@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family:'Marck Script', cursive;
+  background-color: #f7f3f0;
+}
+
+h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 5em;
+  padding: 40px;
+  color: #9b6738
+}
+
+.logo {
+  height: 34px;
+  width: 24px;
+}
+
+#container {
+ display: grid;
+ margin: 0px;
+ text-align: center;
+ grid-template-columns: repeat(3, 40 px);
+ grid-template-areas:
+ 'a b c'
+}
+
+#home {
+  grid-area: a
+}
+#pastry {
+  grid-area: b
+}
+#info {
+  grid-area: c
+}
+
+
+a {
+  text-decoration: none;
+  color: #9b6738;
+}
+
+
+.background {
+  color: #FFDFD3;
+}
