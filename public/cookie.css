@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+
+
+#cookie-box {
+  display: grid;
+  grid-template-columns: repeat(3, 30 px);
+  align-content: space-between;
+  grid-template-areas:
+  'a b c'
+}
+
+#cookie-1 {
+  grid-area: a;
+  width: 34vw;
+  height: 24vh;
+}
+
+#cookie-2 {
+  grid-area: b;
+  width: 21vw;
+  height: 14vh;
+}
+
+#cookie-3 {
+  grid-area: c;
+  width: 34vw;
+  height: 24vh;
+}

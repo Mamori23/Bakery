@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#muffin-box {
+  display: grid;
+  grid-template-columns: repeat(3, 30 px);
+  align-content: space-between;
+  grid-template-areas:
+  'a b c'
+}
+
+#muffin-1 {
+  grid-area: a;
+  width: 21vw;
+  height: 14vh;
+}
+
+#muffin-2 {
+  grid-area: b;
+  width: 21vw;
+  height: 14vh;
+}
+
+#muffin-3 {
+  grid-area: c;
+  width: 21vw;
+  height: 14vh;
+}

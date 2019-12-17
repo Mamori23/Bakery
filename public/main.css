@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   font-size: 5em;
   padding: 40px;
-  color: #9b6738
+  color: #9b6738;
 }
 
 
@@ -28,9 +28,10 @@ h1 {
  display: grid;
  margin: 0px;
  text-align: center;
- grid-template-columns: repeat(3, 40 px);
+ font-size: 2em;
+ grid-template-columns: repeat(4, 40 px);
  grid-template-areas:
- 'a b c'
+ 'a b c d'
 }
 
 
@@ -38,12 +39,16 @@ h1 {
   grid-area: a
 }
 
-#pastry {
+#cookies {
   grid-area: b
 }
 
-#info {
+#cake {
   grid-area: c
+}
+
+#muffin {
+  grid-area: d
 }
 
 a {
@@ -51,6 +56,20 @@ a {
   color: #9b6738;
 }
 
-.background {
-  color: #FFDFD3;
+.link-line {
+  display: inline-block;
+}
+
+.link-line::after {
+   content: '';
+   display: block;
+   width: 0;
+   height: 5px;
+   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 74 6' preserveAspectRatio='none' fill='%23F4B3A9' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M63.761.3c-7.024-.223-14.116-.57-21.12.05C28.905 1.563 15.279 2.266 1.467 2.736-.135 2.79-.65 4.817 1.072 5.05c10.592 1.44 22.877.988 33.556.311C47.011 4.58 59.23 4.072 71.64 5.226c2.04.188 3.168-2.193 1.678-3.206C70.5.105 67.445.417 63.761.3z'/%3E%3C/svg%3E");
+   fill: black;
+   transition: width .3s;
+}
+
+.link-line:hover::after {
+  width: 100%
 }
