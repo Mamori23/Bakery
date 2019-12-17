@@ -37,7 +37,7 @@ rasberry_muffin = Muffin.new('Rasberry Muffin', '$76.00', 'Does anyone else have
 
 vanille_cake = Cake.new('Vanille Cake', '$85.00', 'Let me help. It’s really easy. You can use a fancy cake leveler, but I use a serrated knife. Carefully slice off the tippy top of the cooled cake layers, creating a flat surface. Leveling cakes doesn’t require a ruler, talent, or any mathematical equations. Instead, just use your eyes, hands, and a knife.')
 apple_cake = Cake.new('Apple Cake', '$78.00', 'Angel food cake, or angel cake, is a type of sponge cake made with egg whites, flour, and sugar. A whipping agent, such as cream of tartar, is commonly added. It differs from other cakes because it uses no butter. Its aerated texture comes from whipped egg white.')
-carmeal_cake = Cake.new('Carmeal Cake', "100.00", 'The best real Southern caramel cake recipe on the web! If you want authentic Southern Caramel Cake with the best caramel icing, you must make this recipe.  It is the real deal for real.')
+carmeal_cake = Cake.new('Carmeal Cake', "$100.00", 'The best real Southern caramel cake recipe on the web! If you want authentic Southern Caramel Cake with the best caramel icing, you must make this recipe.  It is the real deal for real.')
 
 # @@cookie = [chocolate, oatmeal, whitemaco]
 # @muffin = [blueberry_muffin, coco_muffin, rasberry_muffin]

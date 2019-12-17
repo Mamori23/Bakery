@@ -27,3 +27,9 @@ body {
   width: 21vw;
   height: 14vh;
 }
+
+.muffin-img {
+  padding:1px;
+  border:1px solid #021a40;
+background-color: pink;
+}

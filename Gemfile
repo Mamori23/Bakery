@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 gem 'sinatra'
-gem 'curb'
+gem 'httparty', '~> 0.17.1'
