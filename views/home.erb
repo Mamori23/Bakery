@@ -14,12 +14,12 @@
 <!-- <h4> Want A recipe? Search Here!</h4> -->
  <!-- <img src="https://cdn.pixabay.com/photo/2019/05/07/15/07/magnifying-glass-4186151_960_720.png" width="5.5%" id='glass'> -->
 
- <form>
+ <form action= '/home' method="POST">
     <img src="https://cdn.pixabay.com/photo/2019/05/07/15/07/magnifying-glass-4186151_960_720.png" width="5.5%" id='glass'>
-   <input type="text" name="search" placeholder="Search..">
+   <input type="text" name="query" placeholder="Search..">
  </form>
 
 
 <div class="box">
-
+ <h2> <%= @data['title'] %> </h2>
 </div>

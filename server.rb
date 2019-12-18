@@ -36,10 +36,10 @@ end
 #   </form>)
 # end
 
-post  '/home' do
-  @input = params['search']
+post '/home' do
+  @input = params['query']
   @url = 'https://api.spoonacular.com/recipes/search?query='
-  req = HTTParty.get(%(#{@url}#{@input}&number=2&instructionsRequired=true&apiKey=#{ENV['bakery']}))
+  req = HTTParty.get(%(#{@url}#{@input}&number=2&instructionsRequired=true&apiKey=#{ENV['RECIPE_KEY']}))
   @data = JSON.parse(req.body)
   puts @data
  erb :home
